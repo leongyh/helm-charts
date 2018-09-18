@@ -1,0 +1,12 @@
+# https://github.com/jenkinsci/configuration-as-code-plugin/tree/master/demos/kubernetes-helm#preparation
+# https://github.com/jenkinsci/configuration-as-code-plugin/tree/master/demos/jenkins
+#
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  # this name needs to be called out in jenkins values.yaml
+  #
+  name: jenkins-casc-config
+data:
+  jenkins.yaml: |
+    {{- .Values.cascYaml | toYaml | nindent 4 }}
