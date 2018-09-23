@@ -1,7 +1,0 @@
-cascYaml:
-  jenkins:
-    systemMessage: ${JENKINS_SYSTEM_MESSAGE}
-#
-secrets:
-  JENKINS_SYSTEM_MESSAGE: Jenkins Configuration-as-Code FTW!
-

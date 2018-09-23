@@ -9,4 +9,4 @@ metadata:
   name: jenkins-casc-config
 data:
   jenkins.yaml: |
-    {{- .Values.cascYaml | toYaml | nindent 4 }}
+    {{- .Values.configuration | toYaml | nindent 4 }}
