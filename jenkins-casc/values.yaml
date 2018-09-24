@@ -1,7 +1,6 @@
 configuration:
   jenkins:
-    systemMessage: "${JENKINS_SYSTEM_MESSAGE}"
-#
+    systemMessage: "---> Jenkins Configuration-as-Code plugin enabled <---"
 secrets:
-  JENKINS_SYSTEM_MESSAGE: "Jenkins Configuration-as-Code FTW!"
+#  SECRET_1: super-secret-1
 
