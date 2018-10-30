@@ -1,2 +1,4 @@
 context:
   type: helm-publish
+deploy:
+  sshCredsId: tk-ssh
