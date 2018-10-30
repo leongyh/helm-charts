@@ -1,4 +1,4 @@
 context:
   type: helm-publish
 deploy:
-  sshCredsId: tk-ssh
+  sshCredsId: tk-github-ssh
