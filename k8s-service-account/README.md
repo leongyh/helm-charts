@@ -5,7 +5,7 @@ creates a service account and binds it to a role
 ## example
 
 ```
-helm upgrade --tiller-namespace foo --install --force --wait --repo={this repo} --version 0.1.0 --namespace foo k8s-service-account-view k8s-service-account
+helm upgrade --tiller-namespace foo --install --force --wait --repo https://raw.githubusercontent.com/the-watchmen/helm-charts/helm-repo/ --version 0.1.0 --namespace foo k8s-service-account-view k8s-service-account
 ```
 
 ## to-do
