@@ -1,0 +1,27 @@
+apiVersion: v1
+entries:
+  eks-init:
+  - created: 2018-11-18T05:13:43.814351325Z
+    description: init eks cluster
+    digest: f850f210c5b7274790d04ff25269e2e7784e570f3c3d8a08439d17f5e718832b
+    name: eks-init
+    urls:
+    - eks-init-0.1.0.tgz
+    version: 0.1.0
+  jenkins-casc:
+  - created: 2018-11-18T05:13:43.814525242Z
+    description: jenkins casc pre-reqs to be used by stable jenkins chart
+    digest: 1f77f30b4d1027d9e016066d64041fa884942e1592960927a36e33f4babd1c34
+    name: jenkins-casc
+    urls:
+    - jenkins-casc-0.1.0.tgz
+    version: 0.1.0
+  k8s-service-account:
+  - created: 2018-11-18T05:13:43.81473989Z
+    description: create service-account and role-binding
+    digest: af3456e9006db0f0477f3f33eaecac5ca970f9ed11ba73b8eaa376848af62207
+    name: k8s-service-account
+    urls:
+    - k8s-service-account-0.1.0.tgz
+    version: 0.1.0
+generated: 2018-11-18T05:13:43.814021461Z
